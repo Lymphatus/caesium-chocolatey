@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- == PACKAGE SPECIFIC SECTION == -->
+    <id>caesium.install</id>
+    <version>2.0.0</version>
+    <packageSourceUrl>https://github.com/Lymphatus/caesium-chocolatey/tree/master/caesium.install</packageSourceUrl>
+    <owners>Lymphatus</owners>
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>Caesium Image Compressor (Install)</title>
+    <authors>Matteo Paonessa</authors>
+    <projectUrl>https://saerasoft.com/caesium/</projectUrl>
+    <iconUrl>https://saerasoft.com/images/logo.png</iconUrl>
+    <copyright>Copyright © 2010-2022 SaeraSoft & Matteo Paonessa</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/Lymphatus/caesium-image-compressor/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Lymphatus/caesium-image-compressor</projectSourceUrl>
+    <bugTrackerUrl>https://github.com/Lymphatus/caesium-image-compressor/issues</bugTrackerUrl>
+    <tags>caesium image compression jpeg png webp oss</tags>
+    <summary>Compress your pictures up to 90% without visible quality loss.</summary>
+    <description>Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats. You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.</description>
+    <releaseNotes>https://github.com/Lymphatus/caesium-image-compressor/releases</releaseNotes>
+    <dependencies>
+      <dependency id="vcredist140" version="14.28.29913" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <file src="legal\**" target="legal" />
+  </files>
+</package>
