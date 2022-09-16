@@ -4,7 +4,7 @@
   <metadata>
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>caesium.install</id>
-    <version>2.1.0</version>
+    <version>2.2.0</version>
     <packageSourceUrl>https://github.com/Lymphatus/caesium-chocolatey/tree/master/caesium.install</packageSourceUrl>
     <owners>Lymphatus</owners>
     <!-- == SOFTWARE SPECIFIC SECTION == -->
@@ -21,9 +21,6 @@
     <summary>Compress your pictures up to 90% without visible quality loss.</summary>
     <description>Caesium is an image compression software that helps you store, send and share digital pictures, supporting JPG, PNG and WebP formats. You can quickly reduce the file size (and resolution, if you want) by preserving the overall quality of the image.</description>
     <releaseNotes>https://github.com/Lymphatus/caesium-image-compressor/releases</releaseNotes>
-    <dependencies>
-      <dependency id="vcredist140" version="14.32.31326" />
-    </dependencies>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
