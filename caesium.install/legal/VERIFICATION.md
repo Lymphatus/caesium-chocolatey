@@ -6,7 +6,7 @@ The extension can be downloaded from the GitHub releases page:
 - https://github.com/Lymphatus/caesium-image-compressor/releases
 
 or directly:
-Version : 2.2.1
+Version : 2.3.0
 URL     : https://github.com/Lymphatus/caesium-image-compressor/releases/download/v2.3.0/caesium-image-compressor-2.3.0-win-setup.exe
 SHA256  : f2d42c7724e6acf65b2384e9455153576065bf2f5e2fb8cc0223d1ba49053077
 
